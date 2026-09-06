@@ -1,54 +1,24 @@
 <svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fuel Delivery System">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070a16"/>
-      <stop offset="55%" stop-color="#101a33"/>
-      <stop offset="100%" stop-color="#1b2a52"/>
-    </linearGradient>
-
-    <pattern id="mot" width="160" height="120" patternUnits="userSpaceOnUse">
-      <g fill="none" stroke="#00e0d0" stroke-width="1" opacity="0.20">
-        <rect x="10" y="12" width="130" height="88" rx="4"/>
-        <path d="M10 30 H140"/>
-      </g>
-      <g fill="#6c8fff" opacity="0.28">
-        <circle cx="21" cy="21" r="2.6"/><circle cx="31" cy="21" r="2.6"/><circle cx="41" cy="21" r="2.6"/>
-      </g>
-      <g fill="#00e0d0" opacity="0.13">
-        <rect x="20" y="42" width="70" height="5" rx="2"/>
-        <rect x="20" y="56" width="100" height="5" rx="2"/>
-        <rect x="20" y="70" width="54" height="5" rx="2"/>
-      </g>
-    </pattern>
-    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00e0d0" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00e0d0" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#00e0d0" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#070a16"/><stop offset="100%" stop-color="#141f3d"/>
     </linearGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="4" result="g"/>
+      <feGaussianBlur stdDeviation="3.6" result="g"/>
       <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-
   <rect width="900" height="200" fill="url(#bg)"/>
-  <rect width="900" height="200" fill="url(#mot)"/>
-  <rect width="900" height="34" fill="url(#scan)" opacity="0.5"/>
-
-  <g fill="none" stroke="#00e0d0" stroke-width="2.4" opacity="0.85">
-    <path d="M22 52 V22 H52"/><path d="M848 22 H878 V52"/>
-    <path d="M22 148 V178 H52"/><path d="M848 178 H878 V148"/>
-  </g>
-
-  <text x="60" y="70" font-family="Consolas, 'Courier New', monospace" font-size="14"
-        fill="#6c8fff" opacity="0.78" letter-spacing="2.5">&gt; flask run --admin</text>
-
-  <text x="60" y="128" font-family="Consolas, 'Courier New', monospace"
-        font-size="46" font-weight="bold" fill="#6c8fff" filter="url(#glow)"
-        letter-spacing="2">Fuel Delivery System</text>
-
-  <text x="62" y="160" font-family="Consolas, 'Courier New', monospace"
-        font-size="15" fill="#00e0d0" opacity="0.92" letter-spacing="1.2">Fuel request platform with an admin approval dashboard</text>
-
-  <rect x="60" y="172" width="150" height="2.5" fill="#6c8fff" opacity="0.85"/>
+  <rect x="46" y="20" width="808" height="160" rx="8" fill="#0b1220" stroke="#2a3a66" stroke-width="1.5"/>
+  <path d="M46 54 H854" stroke="#2a3a66" stroke-width="1.5"/>
+  <circle cx="70" cy="37" r="5.5" fill="#ff5f57"/><circle cx="90" cy="37" r="5.5" fill="#febc2e"/>
+  <circle cx="110" cy="37" r="5.5" fill="#28c840"/>
+  <rect x="134" y="28" width="300" height="18" rx="9" fill="#131c2e" stroke="#2a3a66" stroke-width="1"/>
+  <text x="148" y="41" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="normal" fill="#00e0d0" opacity="0.8" text-anchor="start" letter-spacing="1.0">flask run --admin</text>
+  <text x="80" y="96" font-family="Consolas, 'Courier New', monospace" font-size="36" font-weight="bold" fill="#6c8fff" opacity="1.0" text-anchor="start" letter-spacing="1.5" filter="url(#glow)">Fuel Delivery System</text>
+  <text x="82" y="126" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="normal" fill="#00e0d0" opacity="0.92" text-anchor="start" letter-spacing="1.0">Fuel request platform with an admin approval dashboard</text>
+  <rect x="80" y="142" width="118" height="26" rx="4" fill="#6c8fff" opacity="0.9"/>
+  <text x="139" y="159" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="bold" fill="#0b1220" opacity="1.0" text-anchor="middle" letter-spacing="1.5">VIEW</text>
+  <rect x="212" y="142" width="118" height="26" rx="4" fill="none" stroke="#00e0d0" stroke-width="1.4"/>
+  <text x="271" y="159" font-family="Consolas, 'Courier New', monospace" font-size="12" font-weight="bold" fill="#00e0d0" opacity="1.0" text-anchor="middle" letter-spacing="1.5">SOURCE</text>
 </svg>
